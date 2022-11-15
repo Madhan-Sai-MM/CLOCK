@@ -1,0 +1,74 @@
+  body {
+    height: 100vh;
+    background-color: cadetblue;
+  }
+  .position {
+    aspect-ratio: 1 / 1;
+    position: absolute;
+    inset: 0.5em;
+    margin: auto;
+  }
+  .bigbox {
+    position: fixed;
+    width: 30rem;
+  }
+  .clock-ctn {
+    background: rgb(46, 149, 204);
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 0em 1em 5em 0em #22d72ba3;
+  }
+  .markers {
+    width: 2%;
+    aspect-ratio: 1 / 45;
+    border-radius: 99%;
+    background-color: chartreuse;
+  }
+  .cardinal {
+    background: white;
+    width: 4%;
+    border-radius: 90%;
+    aspect-ratio: 2 / 45; /* aspect-ratio is for the size */
+  }
+  #m-3-9 {
+    transform: rotate(90deg);
+  }
+  #m-1-7 {
+    transform: rotate(30deg);
+  }
+  #m-2-8 {
+    transform: rotate(60deg);
+  }
+  #m-4-10 {
+    transform: rotate(-30deg);
+  }
+  #m-5-11 {
+    transform: rotate(-60deg);
+  }
+  .clock-face {
+    background: darkblue;
+    width: 75%;
+    border-radius: 50%;
+  }
+  .clock-hand {
+    border-radius: 2em;
+    background: linear-gradient(white 50%, transparent 50%);
+  }
+  .hour {
+    width: 3%;
+    aspect-ratio: 1 / 25;
+  }
+  .minute {
+    width: 2%;
+    aspect-ratio: 1 / 45;
+  }
+  .second {
+    width: .5%;
+    aspect-ratio: 1 / 192;
+    background: linear-gradient(chartreuse 50%, transparent 50%);
+  }
+  .dot {
+    width: 7%;
+    border-radius: 50%;
+    background:chartreuse;
+  }
