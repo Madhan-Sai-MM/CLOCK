@@ -1,5 +1,5 @@
 //RUN THE SERVER AND CHECK THE OUTPUT IN BROWSER
-//http://localhost:9005/wall-clock
+//http://localhost:9005/WALL-CLOCK
 const express = require("express");
 const path = require("path");
 
@@ -16,7 +16,7 @@ app.use(express.json())
 
 
 //GET API
-app.get("/wall-clock", function(req,res){
+app.get("/WALL-CLOCK", function(req,res){
     res.sendFile("/clock.html",{
         root: path.join(__dirname, "public")
     })
