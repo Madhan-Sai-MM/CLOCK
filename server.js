@@ -7,7 +7,7 @@ const path = require("path");
 const app = express();
 
 //ADDING PUBLIC FOLDER TO RUN STATIC-FILES
-//MIDDLEWARE :- conver any data intp JSON format
+//MIDDLEWARE :- convert any data into JSON format
 app.use(express.static("public"))
 
 //EXPRESS MIDDLEWARE
@@ -16,6 +16,7 @@ app.use(express.json())
 
 
 //GET API
+//after running the server write /WALL-CLOCK
 app.get("/WALL-CLOCK", function(req,res){
     res.sendFile("/clock.html",{
         root: path.join(__dirname, "public")
