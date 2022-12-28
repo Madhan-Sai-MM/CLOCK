@@ -65,7 +65,7 @@
   .second {
     width: .5%;
     aspect-ratio: 1 / 192;
-    background: linear-gradient(chartreuse 50%, transparent 50%);
+    background: linear-gradient(rgb(137, 250, 25) 50%, transparent 50%);
   }
   .dot {
     width: 7%;
